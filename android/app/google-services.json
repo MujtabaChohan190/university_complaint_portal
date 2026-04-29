@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1080002755292",
+    "project_id": "fast-complaint-portal",
+    "storage_bucket": "fast-complaint-portal.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080002755292:android:99a84bdbefa552b5f91219",
+        "android_client_info": {
+          "package_name": "com.example.fast_complaint_portal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh_a84lPqUMf9aAh7da3O0BSZxQbv_FkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
