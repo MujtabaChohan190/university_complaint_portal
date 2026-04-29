@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
-// Import all your screens
+
 import 'package:fast_complaint_portal/screens/login_screen.dart';
 import 'package:fast_complaint_portal/screens/register_screen.dart';
 import 'package:fast_complaint_portal/screens/student_home_screen.dart';
@@ -10,7 +10,7 @@ import 'package:fast_complaint_portal/screens/audit_log_screen.dart';
 import 'package:fast_complaint_portal/screens/complaint_detail_screen.dart';
 
 void main() async {
-  // Ensure Flutter is ready
+
   WidgetsFlutterBinding.ensureInitialized();
 
   // 1. Initialize Supabase
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
       title: 'FAST Complaint Portal',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        // Using FAST official-style Blue
+      
         colorScheme: ColorScheme.fromSeed(
           seedColor: const Color(0xFF003366),
           primary: const Color(0xFF003366),
@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         appBarTheme: const AppBarTheme(
           backgroundColor: Color(0xFF003366),
-          foregroundColor: Colors.white, // White text on AppBar
+          foregroundColor: Colors.white, 
           elevation: 0,
         ),
       ),
